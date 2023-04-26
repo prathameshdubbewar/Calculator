@@ -1,0 +1,66 @@
+body{
+    background-image: url(calc.jpg);
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    /* border: 1px solid rgb(3, 3, 3); */
+    text-shadow: 2px 1px black;
+    text-decoration-line: underline;
+    text-align: center;
+    font-weight: bolder;
+    /* font-size: 2rem; */
+    /* background-color: blueviolet; */
+}
+
+.overall{
+    /* border: 6px solid red; */
+    width: 80%;
+    margin: 1rem auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+
+.row{
+    margin: 0.26rem 0;
+    
+}
+
+.input{
+    margin: 0.5rem auto;
+    /* background-color: rgb(54, 206, 54); */
+}
+
+#input-text{
+    border: 3px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    padding: 0.4rem 0.5rem;
+    font-size: 1.25rem;
+}
+#answer{
+    border: 3px solid rgb(3, 3, 3);
+    width :10rem;
+    height: 3rem;
+    /* background-color: rgb(54, 206, 54); */
+}
+
+.button{  
+    border: 3px solid rgb(3, 3, 3);
+    padding: 1rem 0;
+    width:3rem;
+    /* background-color: aqua; */
+}
+.clear-btn{
+    font-size: small;
+    border: 3px solid rgb(3, 3, 3);
+    /* background-color: rgb(212, 61, 61); */
+
+}
